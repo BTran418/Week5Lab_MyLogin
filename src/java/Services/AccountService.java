@@ -23,7 +23,7 @@ public class AccountService {
     public User login(String username, String password){
         User currentUser = new User(username, password);
         if ((this.barb.getUsername().equals(currentUser.getUsername()) || this.abe.getUsername().equals(currentUser.getUsername())) && (currentUser.getPassword().equals(this.barb.getPassword())|| currentUser.getPassword().equals(this.abe.getPassword()))) {
-           return currentUser;
+            return currentUser;
        }     
         return null;
     }

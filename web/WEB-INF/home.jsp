@@ -12,8 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Home Page</h1> <br>
-        Welcome ${user.username} <br>
+        <h1>Home Page</h1>
+        Welcome ${currentUser.username} <br><br>
         <a href="login?logout">Logout</a>
     </body>
 </html>
